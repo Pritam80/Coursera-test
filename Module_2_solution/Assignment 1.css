@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 5px;
 }
 body {
 
@@ -19,28 +19,40 @@ h1 {
 }**/
 
 .c1 {
-
-  border: 1px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 4px solid black;
   width: 99%;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 1px;
+  margin-bottom: 2px;
   background-color: gray;
 }
 
 #p1 {
   position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 #p2 {
   position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 #p3 {
   position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 #chicken {
@@ -54,6 +66,7 @@ h1 {
   border: 2px solid black;
   font-weight: bold;
 }
+
 #beef {
   background-color: #DEB887;
   width: 200px;
@@ -65,6 +78,7 @@ h1 {
   border: 2px solid black;
   font-weight: bold;
 }
+
 #sushi {
   background-color: #5F9EA0;
   width: 200px;
@@ -92,7 +106,6 @@ div.text{
 @media (min-width: 992px) {
   .lg-1, .lg-2, .lg-3, .lg-4, .lg-5, .lg-6, .lg-7, .lg-8, .lg-9, .lg-10, .lg-11, .lg-12 {
     float: left;
-    border: 3px solid black;
   }
   .lg-1 {
     width: 8.33%;
@@ -136,7 +149,6 @@ div.text{
 @media (min-width: 768px) and (max-width: 991px) {
   .md-1, .md-2, .md-3, .md-4, .md-5, .md-6, .md-7, .md-8, .md-9, .md-10, .md-11, .md-12 {
     float: left;
-    border: 3px solid black;
   }
   .md-1 {
     width: 8.33%;
@@ -180,8 +192,7 @@ div.text{
 @media (max-width: 767px) {
   .sm-1, .sm-2, .sm-3, .sm-4, .sm-5, .sm-6, .sm-7, .sm-8, .sm-9, .sm-10, .sm-11, .sm-12 {
     float: left;
-    border: 3px solid black;
-  }
+}
   .sm-1 {
     width: 8.33%;
   }
